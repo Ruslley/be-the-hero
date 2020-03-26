@@ -38,6 +38,7 @@ export default function Logon() {
                 <h1>Faça o seu Logon</h1>
                 <input placeholder="Sua ID"
                     value={id}
+                    required
                     onChange={ e => setId(e.target.value)}
                 />
                 <button className="button" type="submit">Entrar</button>

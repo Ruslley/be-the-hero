@@ -58,16 +58,19 @@ const history = useHistory();
                 <form onSubmit={handleRegister}>
                     <input placeholder="Nome da ONG"
                         value={name} 
+                        required
                         onChange= { e => setName(e.target.value)}
                     />
 
                     <input type="email" placeholder="E-mail"
                          value={email} 
+                         required
                         onChange= { e => setEmail(e.target.value)}
                     />
 
                     <input placeholder="Whatsapp"
                          value={whatsapp} 
+                         required
                         onChange= { e => setWhatsapp(e.target.value)}
                     />
                     
@@ -75,12 +78,14 @@ const history = useHistory();
 
                         <input placeholder="Cidade"
                              value={city} 
-                        onChange= { e => setCity(e.target.value)}
+                             required
+                             onChange= { e => setCity(e.target.value)}
                         />
 
                         <input placeholder="UF" style={{width:80}}
                              value={uf} 
-                        onChange= { e => setUf(e.target.value)}
+                             required
+                             onChange= { e => setUf(e.target.value)}
                         />
 
                     </div>
