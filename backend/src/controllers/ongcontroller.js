@@ -1,4 +1,5 @@
-const crypto = require('crypto');
+//const crypto = require('crypto');
+const generateUniqueId = require ('../utils/generateUniqueId');
 
 const connection = require('../database/connection'); // importando arquivo de conexão
 
@@ -17,7 +18,7 @@ module.exports = {
   async create(request,response){
     const {name,email,whatsapp,city,uf} = request.body;
 
-    const id = crypto.randomBytes(4).toString('HEX');
+    const id = generateUniqueId();
     /**
      * SOLICITA O PACOTE CRYPTO A FUNÇÃO PARA GERAR O ID DA ONG
      * COM 4 BYTES E CONVERTE PARA UMA STRING HEXADECIMAL.
