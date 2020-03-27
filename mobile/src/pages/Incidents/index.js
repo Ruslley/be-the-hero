@@ -44,7 +44,7 @@ export default function Incidents(){
     useEffect(() => {
     loadIncidents();
     },[]);
-    
+
 
         return(
             <View style={styles.container}>
@@ -67,7 +67,7 @@ export default function Incidents(){
             data ={incidents}
             style={styles.incidentsList}
             keyExtractor={incident => String(incident.id)}
-            showsVerticalScrollIndicator={false}
+            owsVerticalScrollIndicator={false}
             onEndReached={loadIncidents}
             onEndReachedThreshold={0.2}
             renderItem={({ item: incident}) => (
