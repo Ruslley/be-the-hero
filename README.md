@@ -3,8 +3,11 @@
 Semana OmniStack 11.0
 
 Projeto Desenvolvido com as tecnologias:
-
+<ul>
+  <li type="none">
 *Node.js
 *ReactJs
 *React Native
 *expo
+  </li>
+  </ul>
