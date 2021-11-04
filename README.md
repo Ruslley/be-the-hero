@@ -4,7 +4,7 @@
 
 ### Projeto Desenvolvido com as tecnologias:
 
-- ![imagem](https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png)
+![imagem](https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png)
 
 
 
