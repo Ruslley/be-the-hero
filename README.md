@@ -4,13 +4,15 @@
 
 ### Projeto Desenvolvido com as tecnologias:
 
-![imagem](https://i.ytimg.com/vi/ZmapNgFOwas/maxresdefault.jpg)
-
-
-
-
 - Node.js 
 - ReactJs
 - React Native
 - expo
  
+<br>
+
+![imagem](https://i.ytimg.com/vi/ZmapNgFOwas/maxresdefault.jpg)
+
+
+
+
